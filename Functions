@@ -1,0 +1,27 @@
+//Functions
+//Function is a block of code..is the way to achieve any task in dart prograamming language
+//syntax return_type name_of_function(argument if any) { }
+//return type are similar to datatype void means nothing
+
+//insatll android studios, flutter sdk
+//develop classes and objects for all programs sir gave as assignment
+void main(List<String> args) {
+  sum();
+}
+
+void sum() {
+  var a = 20, b = 10;
+  print("Result is ${a + b}");
+}
+
+
+//Parameterized Functions
+void main(List<String> args) {
+  print("result is ${sum(10.0, 20.0)}");
+  print("result is ${sum(5.0, 10.0)}");
+}
+
+double sum(double a, double b) {
+  //argument passing parameterized function..take user i/p
+  return a + b;
+}
