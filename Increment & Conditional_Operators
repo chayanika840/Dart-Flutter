@@ -1,0 +1,31 @@
+//Increment Operators
+void main(List<String> args) {
+  int a = 2;
+  a += 4; //assignment operators
+  a -= 1;
+  print(a);
+  a *= 2;
+  print(a);
+  print(a);
+  print(a);
+  double b = 22;
+  b /= 2;
+  print(b);
+
+  print(a++); //arithematic operators post increment
+  print(++b); //pre increment
+  var x = 10, y = 2;
+  print("Division: ${x / y}");
+}
+
+//Conditional operators
+void main(List<String> args) {
+  var a = 10, b = 2;
+  var c = (a > b) ? a : b;
+  print(c);
+
+  //Vote age check
+  var age = 20;
+  var result = age >= 18 ? "Vote" : "Go Home";
+  print(result);
+}
