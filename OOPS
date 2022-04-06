@@ -1,0 +1,19 @@
+//oops structure --oops is just a concept template a functionality which is hampered according to the user language Simula 67 is first oop language
+//Features of oops
+//1 class 2 object 3 inheritance 4 polymorphism 5 abstraction 6 encapsulation
+//1 class is just a template, in other word we can say that class is the collections of variables, methods(functions) and constructors
+//real world entity =object like a pen , bag etc.. and has 2 characteristics ..property and functionality
+class Chayanika {
+  //class is a keyword always written in lower case
+  var id = 10;
+
+  void getDetails() {
+    print("hello there");
+  }
+}
+
+void main(List<String> args) {
+  var obj = new Chayanika();
+  print(obj.id);
+  obj.getDetails();
+}
