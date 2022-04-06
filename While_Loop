@@ -1,0 +1,11 @@
+import 'dart:io';
+
+void main(List<String> args) {
+  print("Enter your story here");
+  while (true) {
+    var input = stdin.readLineSync();
+    if (input == "Stop" || input == 'stop') {
+      break;
+    }
+  }
+}
