@@ -1,0 +1,9 @@
+import 'dart:io';
+
+void main(List<String> args) {
+  print("enter ur no");
+  var i = int.parse(stdin.readLineSync()!);
+  print("enter no:");
+  var c = (i % 2 == 0) ? "even" : "odd";
+  print(c);
+}
