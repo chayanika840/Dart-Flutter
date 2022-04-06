@@ -1,0 +1,8 @@
+void main(List<String> args) {
+  var a = 10, b = 5;
+  print("${a < b && a != b}");
+  print("${a > b && a != b}");
+  print("${a < b || a != b}");
+  print("${a > b || a != b}");
+  print("${!(a < b)}"); //Logical not ..true->false, false->true
+}
